@@ -1,0 +1,117 @@
+.portfolio {
+  margin: 50px 0;
+}
+
+.gallery {
+  display: flex;
+  
+}
+
+.gallery > * {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.gallery__item {
+  position: relative;
+  max-width: calc($index * 20);
+  // margin-bottom: $gallery-gap;
+  max-height: 80vh;
+}
+
+.gallery__left {
+  margin-top: calc($gallery-gap * 0.75);
+}
+
+.gallery__right {
+  margin-top: calc($gallery-gap * 0.75);
+}
+
+.text-block {
+  position: relative;
+}
+
+.text-block__h {
+  font-size: 2rem;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+}
+
+.text-block__p {
+  line-height: 1.5;
+}
+
+.gallery__wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  border-radius: 8px;
+  
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  transition: all 0.2s ease-in;
+  
+}
+
+
+.gallery__wrapper:hover .gallery__basket,
+.gallery__wrapper:hover .gallery__heart {
+opacity: 1;
+}
+
+
+.gallery__caption {
+  display: block;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: center;
+  font-size: 26px;
+   font-style: italic;
+}
+
+.gallery__price {
+  text-align: center;
+ 
+  font-weight: 600;
+  font-size: 26px;
+  margin-bottom: 2em;
+}
+
+
+.gallery__basket {
+  position: absolute;
+  top:10px;
+  left: 10px;
+  transition: all 0.3s ease-in;
+  opacity: 0;
+}
+
+.gallery__heart {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  transition: all 0.3s ease-in;
+  opacity: 0;
+}
+
+.gallery__btn {
+  width: 50px;
+  height: 50px;
+  background: #d0ade6af;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 500;
+  transition: all 0.3s ease-in;
+
+  &:hover {
+    background: $blue;
+    color: $lilac;
+    transform: scale(1.1);
+  }
+}
+
+.card__iconify {
+  width: 36px;
+}

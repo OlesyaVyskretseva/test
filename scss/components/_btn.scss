@@ -1,0 +1,22 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  line-height: 120%;
+  max-width: 200px;
+  min-height: 50px;
+  background: $purple;
+  border: 1.5px solid $blue;
+  border-radius: 100px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  transition: all 0.3s ease-in;
+
+  &:hover {
+background: $orange;
+// background: $lilac;
+  }
+}
+

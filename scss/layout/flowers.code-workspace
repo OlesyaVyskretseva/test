@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../Новая папка/libs"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "flowers",
+		"liveServer.settings.port": 5501
+	}
+}

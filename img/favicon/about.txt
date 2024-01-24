@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Ysabeau
+- Font Author: Copyright 2023 The Ysabeau Project Authors (https://github.com/CatharsisFonts/Ysabeau)
+- Font Source: http://fonts.gstatic.com/s/ysabeau/v1/kmKiZqEiBAXLcnuMvjZNI_5FGeJet7NxDzYwI8Gcw6Oi.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))

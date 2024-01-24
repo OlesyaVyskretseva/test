@@ -1,0 +1,70 @@
+.header {
+  position: relative;
+  display: flex;
+  border-bottom: 2px solid $blue;
+  height: 40px;
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__title {
+    font-family: "Caveat", cursive;
+    color: $pink;
+    font-size: clamp(18px, 4vw, 32px);
+  }
+
+  &__wrapper {
+    position: relative;
+    margin: 0 auto;
+    width: 1440px;
+  }
+
+  &__delivery a{
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    top: 20%;
+    left: 1%;
+
+  }
+
+  &__delivery p {
+  margin-bottom: 15px;
+  }
+
+
+  &__tel {
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    top: 10%;
+    right: 1%;
+  }
+  &__tel p {
+    margin-bottom: 15px;
+  }
+
+}
+
+.header-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: $bg;
+  z-index: 100;
+  padding: 0 1vw;
+}
+
+.header-scrolled {
+  box-shadow: 11px 14px 15px 1px rgba(34, 60, 80, 0.8);
+}
+
+.header__iconify {
+  width: 22px;
+  margin: 2px -7px 12px 2px;
+  color: $pink;
+}

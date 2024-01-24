@@ -1,0 +1,40 @@
+.content {
+  position: relative;
+  background-image: url(./../../img/bg3.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  height: 100vh;
+  margin-bottom: 1em;
+
+
+&__title {
+  position: absolute;
+  right: 10%;
+  top: 5%;
+  font-size: clamp(24px, 4vw, 64px);
+  font-weight: 600;
+  line-height: 1.4;
+  text-transform: uppercase;
+  font-family: 'Caveat', cursive;
+}
+
+&__text {
+  position: absolute;
+  right: 5%;
+  top: 20%;
+  max-width: 350px;
+  font-size: clamp(18px, 1.6vw, 32px);
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 1.6;
+  text-align: center;
+  font-style: oblique;
+}
+
+&__btn {
+  position: absolute;
+  bottom: 100px;
+  right: 100px;
+}
+}
